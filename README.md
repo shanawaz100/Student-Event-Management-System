@@ -1,84 +1,59 @@
-\# 🎓 Student Event Management System
+# Smart Queue Management System
 
+A web-based queue management system designed to improve queue handling in public service organizations.
 
+## Project Overview
 
-> A simple and user-friendly web application that helps students discover and explore upcoming college events.
+The Smart Queue Management System helps citizens generate service tokens, track their queue status, and reduce confusion and unnecessary waiting. Staff can manage the queue, while administrators can manage available services.
 
-\---
+## Technologies Used
 
-\## 🌟 Project Overview
+- Python
+- Flask
+- SQLite
+- HTML
+- CSS
+- JavaScript
 
-The \*\*Student Event Management System\*\* is a web-based application designed to display important college events in an organized and attractive way.
+## Features
 
-Students can easily view:
+- Citizen registration
+- Automatic token generation
+- Queue status tracking
+- Queue position display
+- Estimated waiting time
+- Staff dashboard
+- Call next citizen
+- Complete service
+- Admin login
+- Add and delete services
+- Priority-based queue management
 
+## User Roles
 
+**Citizen:** Register, generate tokens and track queue status.
 
-\- 📋 Event List
+**Staff:** Call the next citizen and complete services.
 
-\- 📅 Event Date
+**Admin:** Log in and manage available services.
 
-\- ⏰ Event Time
+## Live Website
 
-\- 📝 Event Description
+https://shanawaz.pythonanywhere.com
 
+## How to Run Locally
 
+1. Install Python.
+2. Install dependencies:
 
-The project also demonstrates the use of \*\*Git and GitHub for version control, feature development, branching, merging, and deployment\*\*.
+   `pip install -r requirements.txt`
 
+3. Run the application:
 
+   `python app.py`
 
-\---
+4. Open `http://127.0.0.1:5000` in your browser.
 
+## Project Repository
 
-
-\## ✨ Features
-
-
-
-\### 📋 Event List
-
-Displays upcoming college events in attractive event cards.
-
-
-
-\### 📅 Event Details
-
-Provides important information such as event date, time, and description.
-
-
-
-\### 🎨 Responsive Design
-
-The webpage is designed using HTML and CSS and adapts to different screen sizes.
-
-
-
-\### 🌐 GitHub Pages Deployment
-
-The application can be deployed and accessed online using GitHub Pages.
-
-
-
-\---
-
-
-
-\## 🖥️ Technologies Used
-
-
-
-&#x20;🌐 HTML5 
-
-&#x20;🎨 CSS3 
-
-&#x20;🔧 Git 
-
-&#x20;🐙 GitHub 
-
-&#x20;🚀 GitHub Pages 
-
-
-
-
-
+https://github.com/shanawaz100/SmartQueueManagement
